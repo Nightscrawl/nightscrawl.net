@@ -1,0 +1,77 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, h1 {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 1.1em;
+    font-weight: normal;
+    word-spacing: 2px;
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.flower {
+    position: absolute;
+    z-index: -1;
+    width: 125%;
+}
+
+.title, .sites, .contact {
+    margin: 5px;
+    text-align: center;
+}
+
+.title {
+    padding: 10px 20px;
+}
+
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+.hide {
+    display: none;
+}
+
+/* COLORS */
+body {
+    background-color: #33271f;
+}
+
+.flower {
+    color: #4e869b;
+    fill: currentColor;
+}
+
+main {
+    background-color: #624c36;
+    box-shadow: 3px 3px 0px rgba(000, 000, 000, .50);
+}
+
+.title, .sites, .contact {
+    background-color: #342215;
+}
+
+body, a:link, a:visited {
+    color: white;
+}
+
+a:hover {
+    background-color: #74a5b5;
+    color: black;
+}
